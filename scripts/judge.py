@@ -16,11 +16,15 @@ def parse_args():
 
     args = parser.parse_args()
     if (args.model_name not in ["Qwen3.5-0.8B-Alignment-Ranker", "Qwen3.5-2B-Alignment-Ranker",
-                                "Qwen3.5-4B-Alignment-Ranker", "Qwen3.5-9B-Alignment-Ranker"]
+                                "Qwen3.5-4B-Alignment-Ranker", "Qwen3.5-9B-Alignment-Ranker",
+                                "Gemma4-E2B-It-Alignment-Ranker", "Gemma4-E4B-It-Alignment-Ranker"
+                                ]
             and args.model_name not in ["ctgee5/Qwen3.5-0.8B-Alignment-Ranker", "ctgee5/Qwen3.5-2B-Alignment-Ranker",
-                                        "ctgee5/Qwen3.5-4B-Alignment-Ranker", "ctgee5/Qwen3.5-9B-Alignment-Ranker"]):
+                                        "ctgee5/Qwen3.5-4B-Alignment-Ranker", "ctgee5/Qwen3.5-9B-Alignment-Ranker",
+                                        "ctgee5/Gemma4-E2B-It-Alignment-Ranker",
+                                        "ctgee5/Gemma4-E4B-It-Alignment-Ranker"]):
         raise Exception(
-            'The selected model is one of ["Qwen3.5-0.8B-Alignment-Ranker","Qwen3.5-2B-Alignment-Ranker","Qwen3.5-4B-Alignment-Ranker","Qwen3.5-9B-Alignment-Ranker"].')
+            'The selected model is one of ["Qwen3.5-0.8B-Alignment-Ranker","Qwen3.5-2B-Alignment-Ranker","Qwen3.5-4B-Alignment-Ranker","Qwen3.5-9B-Alignment-Ranker","Gemma4-E2B-It-Alignment-Ranker","Gemma4-E4B-It-Alignment-Ranker"].')
     return args
 
 
