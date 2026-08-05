@@ -42,17 +42,17 @@ The training set, validation set and test set are provided in `train.jsonl`, `de
 
 We fine-tuned six models using experimental data: Qwen3.5-0.8B, Qwen3.5-2B, Qwen3.5-4B, Qwen3.5-9B, Gemma4-E2B-It, and Gemma4-E4B-It. 
 
-[![ModelScope](https://img.shields.io/badge/ModelScope-Qwen3.5--0.8B-blue)](https://www.modelscope.cn/models/ctgee5/Qwen3.5-0.8B-Alignment-Ranker)[![HuggingFace](https://img.shields.io/badge/HuggingFace-Qwen3.5--0.8B-orange)]([ctge5/Qwen3.5-0.8B-Alignment-Ranker · Hugging Face](https://huggingface.co/ctge5/Qwen3.5-0.8B-Alignment-Ranker))
+[![ModelScope](https://img.shields.io/badge/ModelScope-Qwen3.5--0.8B-blue)](https://www.modelscope.cn/models/ctgee5/Qwen3.5-0.8B-Alignment-Ranker) [![HuggingFace](https://img.shields.io/badge/HuggingFace-Qwen3.5--0.8B-orange)](https://huggingface.co/ctge5/Qwen3.5-0.8B-Alignment-Ranker)
 
-[![ModelScope](https://img.shields.io/badge/ModelScope-Qwen3.5--2B-blue)](https://www.modelscope.cn/models/ctgee5/Qwen3.5-2B-Alignment-Ranker)[![HuggingFace](https://img.shields.io/badge/HuggingFace-Qwen3.5--2B-orange)]([ctge5/Qwen3.5-2B-Alignment-Ranker · Hugging Face]([ctge5/Qwen3.5-2B-Alignment-Ranker · Hugging Face](https://huggingface.co/ctge5/Qwen3.5-2B-Alignment-Ranker))
+[![ModelScope](https://img.shields.io/badge/ModelScope-Qwen3.5--2B-blue)](https://www.modelscope.cn/models/ctgee5/Qwen3.5-2B-Alignment-Ranker) [![HuggingFace](https://img.shields.io/badge/HuggingFace-Qwen3.5--2B-orange)](https://huggingface.co/ctge5/Qwen3.5-2B-Alignment-Ranker)
 
-[![ModelScope](https://img.shields.io/badge/ModelScope-Qwen3.5--4B-blue)](https://www.modelscope.cn/models/ctgee5/Qwen3.5-4B-Alignment-Ranker)[![HuggingFace](https://img.shields.io/badge/HuggingFace-Qwen3.5--4B-orange)]([ctge5/Qwen3.5-4B-Alignment-Ranker · Hugging Face]([ctge5/Qwen3.5-4B-Alignment-Ranker · Hugging Face](https://huggingface.co/ctge5/Qwen3.5-4B-Alignment-Ranker))
+[![ModelScope](https://img.shields.io/badge/ModelScope-Qwen3.5--4B-blue)](https://www.modelscope.cn/models/ctgee5/Qwen3.5-4B-Alignment-Ranker) [![HuggingFace](https://img.shields.io/badge/HuggingFace-Qwen3.5--4B-orange)](https://huggingface.co/ctge5/Qwen3.5-4B-Alignment-Ranker)
 
-[![ModelScope](https://img.shields.io/badge/ModelScope-Qwen3.5--9B-blue)](https://www.modelscope.cn/models/ctgee5/Qwen3.5-9B-Alignment-Ranker)[![HuggingFace](https://img.shields.io/badge/HuggingFace-Qwen3.5--9B-orange)]([ctge5/Qwen3.5-9B-Alignment-Ranker · Hugging Face]([ctge5/Qwen3.5-9B-Alignment-Ranker · Hugging Face](https://huggingface.co/ctge5/Qwen3.5-9B-Alignment-Ranker))
+[![ModelScope](https://img.shields.io/badge/ModelScope-Qwen3.5--9B-blue)](https://www.modelscope.cn/models/ctgee5/Qwen3.5-9B-Alignment-Ranker) [![HuggingFace](https://img.shields.io/badge/HuggingFace-Qwen3.5--9B-orange)](https://huggingface.co/ctge5/Qwen3.5-9B-Alignment-Ranker)
 
-[![ModelScope](https://img.shields.io/badge/ModelScope-Gemma4--E2B--it-blue)](https://www.modelscope.cn/models/ctgee5/Gemma4-E2B-It-Alignment-Ranker)[![HuggingFace](https://img.shields.io/badge/HuggingFace-Gemma4--E2B--It-orange)]([ctge5/Gemma4-E2B-It-Alignment-Ranker · Hugging Face]([ctge5/Gemma4-E2B-It-Alignment-Ranker · Hugging Face](https://huggingface.co/ctge5/Gemma4-E2B-It-Alignment-Ranker))
+[![ModelScope](https://img.shields.io/badge/ModelScope-Gemma4--E2B--it-blue)](https://www.modelscope.cn/models/ctgee5/Gemma4-E2B-It-Alignment-Ranker) [![HuggingFace](https://img.shields.io/badge/HuggingFace-Gemma4--E2B--It-orange)](https://huggingface.co/ctge5/Gemma4-E2B-It-Alignment-Ranker)
 
-[![ModelScope](https://img.shields.io/badge/ModelScope-Gemma4--E4B--it-blue)](https://www.modelscope.cn/models/ctgee5/Gemma4-E4B-It-Alignment-Ranker)[![HuggingFace](https://img.shields.io/badge/HuggingFace-Gemma4--E4B--It-orange)]([ctge5/Gemma4-E4B-It-Alignment-Ranker · Hugging Face]([ctge5/Gemma4-E4B-It-Alignment-Ranker · Hugging Face](https://huggingface.co/ctge5/Gemma4-E4B-It-Alignment-Ranker))
+[![ModelScope](https://img.shields.io/badge/ModelScope-Gemma4--E4B--it-blue)](https://www.modelscope.cn/models/ctgee5/Gemma4-E4B-It-Alignment-Ranker) [![HuggingFace](https://img.shields.io/badge/HuggingFace-Gemma4--E4B--It-orange)](https://huggingface.co/ctge5/Gemma4-E4B-It-Alignment-Ranker)
 
 ## Contact
 
