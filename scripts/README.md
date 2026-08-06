@@ -84,7 +84,7 @@ python compare.py --system system.json --reference reference.json --double_check
 bash
 
 ```bash
-python compare.py \
+python judge.py \
     --model_name ctgee5/Gemma4-E4B-It-Alignment-Ranker \
     --system sys.jsonl \
     --reference ref.jsonl \
