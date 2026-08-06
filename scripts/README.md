@@ -66,7 +66,7 @@ Additionally, each record must contain a response field (field name specified by
 ### Basic Command (without double‑check)
 
 ```bash
-python compare.py --system system.json --reference reference.json
+python judge.py --system system.json --reference reference.json
 ```
 
 
